@@ -30,3 +30,23 @@
    margin: 0 auto;
 }
 
+.formStyle button:hover{
+    background-color: chocolate;
+}
+
+
+@media (max-width:720px){
+    .formStyle{
+        max-width: 100%;
+    }
+
+    .form-field{
+        display: flex;
+
+        flex-direction: column;
+    }
+
+    .form-field label{
+        margin: 0.5rem 0;
+    }
+}

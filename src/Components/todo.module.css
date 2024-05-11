@@ -23,3 +23,7 @@
     background-color: black;
     transform: scale(1.10);
 }
+
+@media (max-width:720px){
+    
+}

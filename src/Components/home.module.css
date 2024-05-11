@@ -5,6 +5,11 @@
     background-color: rgb(63, 45, 48);
     margin: auto;
     padding: 1rem;
+}
 
+@media (max-width:720px){
+    .homeContainer{
+        width: 100vw;
+    }
 }
 

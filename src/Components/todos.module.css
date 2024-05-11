@@ -7,3 +7,10 @@
     padding: 1rem;
 }
 
+@media (max-width:720px){
+    .todosContainer{
+        max-width: 100%;
+    }
+}
+
+
