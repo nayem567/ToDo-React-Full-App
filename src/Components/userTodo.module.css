@@ -1,0 +1,32 @@
+
+
+.formStyle{
+    max-width: 60vw;
+    margin: auto;
+    padding: 1rem;
+    background-color: #5a5959;
+}
+
+.form-field{
+    display: flex;
+    margin: 1rem 0;
+}
+
+.form-field label{
+    flex-basis: 20%;
+}
+
+.form-field input{
+    flex-basis: 80%;
+    padding: 0.5rem;
+}
+
+.form-field textarea{
+    flex-basis: 80%;
+}
+
+.formStyle button{
+   display: block;
+   margin: 0 auto;
+}
+

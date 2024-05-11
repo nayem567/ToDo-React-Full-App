@@ -1,0 +1,25 @@
+
+.articleContainer{  
+    padding: 1rem ;
+    background-color:  #222121;;
+    margin-bottom: 1rem;
+    transition: transform 0.5s ease;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.textContainer{
+    width: 80%;
+}
+
+.buttonContainer{
+    text-align: right;
+    width: 20%;
+}
+
+.articleContainer:hover{
+    background-color: black;
+    transform: scale(1.10);
+}
